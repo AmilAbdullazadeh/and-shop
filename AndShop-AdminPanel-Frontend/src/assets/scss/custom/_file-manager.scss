@@ -1,0 +1,244 @@
+//File Manger Styles //@at-root
+
+.file-rounded-attachments {
+    padding: 0px 10px !important;
+    border-radius: 50px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    line-height: 2;
+}
+.tag-outline {
+    border: 1px solid #e8e8f7;
+    color: #53545e;
+    background-color: transparent;
+}
+
+.file-radius-attachments {
+    padding: 0px 10px !important;
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    line-height: 2;
+}
+.tag-primary-transparent {
+    background-color: var(--primary02) !important;
+    color: $primary-1;
+}
+.tag-warning-transparent {
+    background-color: rgba(255, 155, 33, 0.2) !important;
+    color: $warning;
+}
+.tag-danger-transparent {
+    background-color: rgba(253, 96, 116, 0.2) !important;
+    color: $danger;
+}
+.tag-info-transparent {
+    background-color: rgba(1, 184, 255, 0.2) !important;
+    color: $info;
+}
+.tag-success-transparent {
+    background-color: rgba(25, 177, 89, 0.2) !important;
+    color: $success;
+}
+.tag-secondary-transparent {
+    background-color: rgba(241, 56, 139, 0.2) !important;
+    color: $secondary;
+}
+.file-rounded-attachments-lg {
+    padding: 0px 10px !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    cursor: pointer !important;
+    line-height: 2;
+}
+.file-rounded-attachments-lg i {
+    font-size: 20px !important;
+}
+.file-radius-attachments-lg {
+    padding: 0px 10px !important;
+    border-radius: 6px !important;
+    font-size: 15px !important;
+    cursor: pointer !important;
+    line-height: 2;
+}
+.file-radius-attachments-lg i {
+    font-size: 20px !important;
+}
+.file-image .icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    right: 22px;
+    top: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: -3px;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+    text-align: right;
+}
+.file-image img {
+    border-radius: 7px;
+}
+.file-image .icons li {
+    display: block;
+    margin: 5px;
+}
+.file-image .icons li a {
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    margin: 2px 7px;
+    padding: 0;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.file-image .icons li a {
+    color: #fff;
+}
+.file-image .icons li a:after,
+.file-image .icons li a:before {
+    content: attr(data-tip);
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+.file-image .icons li a:after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -20px;
+    z-index: -1;
+}
+.file-image:hover .icons {
+    opacity: 1;
+    bottom: 33px;
+}
+.file-image:hover {
+    border-radius: 7px;
+}
+.file-image .icons li a:hover {
+    color: #fff;
+}
+.file-name {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+.file-image-1 {
+    width: 100px;
+    height: 100px;
+    display: inline-table;
+    margin: 4px;
+    position: relative;
+    border: 1px solid #e9edf4;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.file-image-1 .icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    right: 7px;
+    top: 6px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+    text-align: right;
+}
+.file-image-1:hover .icons {
+    opacity: 1;
+    bottom: 33px;
+}
+.file-image-1 .icons li a {
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    margin: 4px 1px;
+    padding: 0;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.file-image-1 .file-name-1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -30px;
+    color: #524d4d;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+.file-image-md {
+    width: 150px;
+    height: 150px;
+}
+.file-image-1 .product-image img {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.file-image-lg {
+    width: 200px;
+    height: 200px;
+}
+.open-file {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.file-manager-icon {
+    width: 55px;
+    height: 55px;
+    padding: 7px !important;
+}
+.file-image-lg .icons li a {
+    font-size: 15px;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+}
+.file-image-md .icons li a {
+    font-size: 13px;
+    line-height: 30px;
+    height: 28px;
+    width: 28px;
+}
+@media screen and (min-width: 768px) {
+    .file-manager-list {
+        height: 124px;
+    }
+}

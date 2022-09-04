@@ -1,0 +1,49 @@
+/*-----Badges-----*/
+
+.btn .badge {
+	position: relative;
+	top: -1px;
+	right: -3px;
+}
+.badge {
+	display: inline-block;
+	padding: 1em .8em;
+        font-size: 75% !important;
+	line-height: 0;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 500;
+}
+.rounded-pill {
+	border-radius: 50px;
+}
+.badgetext {
+	float: right;
+}
+.btn-custom {
+	background: #f1f1f9;
+	color:#76839a;
+}
+
+.badge.bg-white{
+  color:#000 !important;
+}
+.btn-outline-primary:hover .bg-primary{
+  background:$white !important;
+  color:#000;
+}
+.btn-outline-success:hover .bg-success{
+  background:$white !important;
+  color:#000;
+}
+.btn-outline-secondary:hover .bg-secondary{
+  background:$white !important;
+  color:#000;
+}
+.btn-outline-info:hover .bg-info{
+  background:$white !important;
+  color:#000;
+}

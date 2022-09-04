@@ -1,0 +1,131 @@
+/*-----Alerts-----*/
+
+.alert {
+	position: relative;
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	&:last-child, p {
+		margin-bottom: 0;
+	}
+}
+.alert-heading {
+	color: inherit;
+}
+.alert-link {
+	font-weight: 500;
+	&:hover, a:hover {
+		text-decoration: underline;
+	}
+}
+.alert-dismissible {
+	.btn-close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0.75rem 1.25rem;
+		color: inherit;
+	}
+}
+.alert-default{
+	background-color: #f9f7f7;
+
+}
+.alert-secondary {
+	color: $secondary;
+	background-color: #fce9df;
+	border-color: #fce9df;
+	hr {
+		border-top-color: $secondary;
+	}
+	.alert-link {
+		color: $secondary;
+	}
+}
+.alert-success {
+	color: #09ad95;
+	background-color: rgba(0, 230, 130, 0.1);
+	border-color: rgb(202, 249, 228);
+	hr {
+		border-top-color: #c5e7a4;
+	}
+	.alert-link {
+		color: #172e00;
+	}
+}
+.alert-info {
+	color: #24587e;
+	background-color: #daeefc;
+	border-color: #cbe7fb;
+	hr {
+		border-top-color: #b3dcf9;
+	}
+	.alert-link {
+		color: #193c56;
+	}
+}
+.alert-warning {
+	color: #7d6608;
+	background-color: #fcf3cf;
+	border-color: #fbeebc;
+	hr {
+		border-top-color: #fae8a4;
+	}
+	.alert-link {
+		color: #4d3f05;
+	}
+}
+.alert-danger {
+	color: #f82649;
+	background-color: rgba(255, 56, 43, 0.1);
+	border-color: rgb(255, 222, 219);
+	hr {
+		border-top-color: #ecacab;
+	}
+	.alert-link {
+		color: #3f0a09;
+	}
+}
+.alert-light {
+	color: #818182;
+	background-color: #fefefe;
+	border-color: #fdfdfe;
+	hr {
+		border-top-color: #ececf6;
+	}
+	.alert-link {
+		color: #686868;
+	}
+}
+.alert-dark {
+	color: #1b1e21;
+	background-color: #d6d8d9;
+	border-color: #c6c8ca;
+	hr {
+		border-top-color: #b9bbbe;
+	}
+	.alert-link {
+		color: #040505;
+	}
+}
+.alert {
+	font-size: 0.9375rem;
+}
+.alert-icon {
+	padding-left: 3rem;
+	>i {
+		color: inherit !important;
+		font-size: 1rem;
+		position: absolute;
+		top: 1rem;
+		left: 1rem;
+	}
+}
+.alert-avatar {
+	padding-left: 3.75rem;
+	.avatar {
+		position: absolute;
+		top: .5rem;
+		left: .75rem;
+	}
+}

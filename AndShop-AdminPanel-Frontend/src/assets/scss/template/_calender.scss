@@ -1,0 +1,149 @@
+@media (max-width: 320px) {
+	.fc-toolbar .fc-right {
+		float: right;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+}
+
+
+#footer,
+.fc-toolbar .ui-button,
+.fileinput .thumbnail {
+	text-align: center;
+}
+
+.four-zero {
+	text-align: center;
+	footer>a {
+		text-align: center;
+	}
+}
+
+.ie-warning,
+.login-content,
+.login-navigation {
+	text-align: center;
+}
+
+.pt-inner {
+	text-align: center;
+	.pti-footer>a {
+		text-align: center;
+	}
+}
+
+.richText {
+	.richText-toolbar {
+		ul li a {
+			border-right: rgba(156, 162, 161, 0.2) solid 1px;
+		}
+		border-bottom: rgba(156, 162, 161, 0.1) solid 1px;
+	}
+	border: $border solid 1px;
+	background-color: #f5f6fb !important;
+}
+
+.cal1 {
+	.clndr {
+		.clndr-table {
+			.header-days .header-day {
+				border-left: 1px solid $white-1;
+				border-top: 1px solid #e2e3e4;
+			}
+			tr {
+				.empty,
+				.adjacent-month,
+				.my-empty,
+				.my-adjacent-month {
+					border-left: 1px solid $border;
+					border-top: 1px solid $border;
+					background: #f5f6fb !important;
+				}
+				.day {
+					&.event,
+					&.my-event {
+						background: #f5f6fb7a !important;
+					}
+					border-left: 1px solid $border;
+					border-top: 1px solid $border;
+					&:last-child {
+						border-right: 1px solid $border;
+					}
+					&:hover {
+						background: #f5f6fb;
+					}
+				}
+			}
+		}
+		.clndr-controls .clndr-control-button {
+			.clndr-previous-button,
+			.clndr-next-button {
+				color: $white;
+			}
+		}
+	}
+	font-size: 14px;
+}
+
+.fc-unthemed {
+	.fc-content,
+	.fc-divider,
+	.fc-list-heading td,
+	.fc-list-view,
+	.fc-popover,
+	.fc-row,
+	tbody,
+	td,
+	th,
+	thead {
+		border-color: $border;
+	}
+}
+
+.fc-event,
+.fc-event-dot {
+	color: $border ;
+}
+
+.fc-unthemed {
+	.fc-divider,
+	.fc-list-heading td,
+	.fc-popover .fc-header {
+		background: #e2e3e4;
+	}
+}
+
+.fc-toolbar {
+	.fc-state-active,
+	.ui-state-active {
+		background: #b4b4b4;
+	}
+}
+
+.fc-today-button fc-button fc-state-default fc-corner-left fc-corner-right fc-state-disabled:focus {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.fc-unthemed .fc-list-item:hover td {
+	background-color: #eeeeee;
+}
+
+.cal1 .clndr .clndr-table tr {
+	.empty:hover,
+	.adjacent-month:hover,
+	.my-empty:hover,
+	.my-adjacent-month:hover {
+		background: $white;
+	}
+}
+
+.error-page {
+	.display-1 {
+		font-size: 10.5rem;
+		margin-top: 0px;
+	}
+	position: relative;
+}
